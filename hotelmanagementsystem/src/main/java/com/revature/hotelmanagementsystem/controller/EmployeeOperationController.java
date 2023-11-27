@@ -16,7 +16,7 @@ import com.revature.hotelmanagementsystem.response.HotelManagementResponse;
 import com.revature.hotelmanagementsystem.service.EmployeeOperationService;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*", allowCredentials = "true" , methods = {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
+//@CrossOrigin(origins = "*", allowedHeaders = "*", allowCredentials = "true" , methods = {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class EmployeeOperationController {
 
 	@Autowired

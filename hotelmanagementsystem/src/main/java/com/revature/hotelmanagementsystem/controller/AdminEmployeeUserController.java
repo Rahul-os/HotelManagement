@@ -11,8 +11,8 @@ import com.revature.hotelmanagementsystem.service.AdminEmployeeUserService;
 
 @RestController
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = {"http://frontendnodejs.s3-website.us-east-2.amazonaws.com"} ,
-		methods = {RequestMethod.GET , RequestMethod.POST , RequestMethod.PUT , RequestMethod.DELETE})  // allows requests from this host url only.
+//@CrossOrigin(origins = {"http://frontendnodejs.s3-website.us-east-2.amazonaws.com"} ,
+		//methods = {RequestMethod.GET , RequestMethod.POST , RequestMethod.PUT , RequestMethod.DELETE})  // allows requests from this host url only.
 //@CrossOrigin(origins = "*", allowedHeaders = "*", allowCredentials = "true")
 public class AdminEmployeeUserController {
 
