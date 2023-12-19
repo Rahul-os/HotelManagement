@@ -18,7 +18,6 @@ public class WebConfig implements WebMvcConfigurer {
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH") // Include OPTIONS
                         .allowedHeaders("*");
                         //.allowCredentials(true);
-
             }
         };
     }
