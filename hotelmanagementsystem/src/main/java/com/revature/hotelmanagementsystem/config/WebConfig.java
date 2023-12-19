@@ -14,7 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://frontendnodejs.s3-website.us-east-2.amazonaws.com")
+                        .allowedOrigins("http://frontendnodejs.s3-website.us-east-2.amazonaws.com")  // change this URL according to the s3 bucket URL whre the frontend build files are uploaded.
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH") // Include OPTIONS
                         .allowedHeaders("*");
                         //.allowCredentials(true);
